@@ -1,0 +1,17 @@
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\FaceBookBot.exe.config
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\FaceBookBot.exe
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\FaceBookBot.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FaceBookBot.Properties.Resources.resources
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FaceBookBot.csproj.GenerateResource.Cache
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FaceBookBot.exe
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FaceBookBot.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\Factories.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\Factories.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FaceBookBot.csprojResolveAssemblyReference.cache
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\obj\Debug\FacebookBot.Form1.resources
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\DataBase.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\Npgsql.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\DataBase.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\Npgsql.xml
+E:\Git\FacebookBot\Bot\FaceBookBot\FaceBookBot\bin\Debug\System.Threading.Tasks.Extensions.xml

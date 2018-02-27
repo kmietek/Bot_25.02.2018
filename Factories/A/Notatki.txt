@@ -1,0 +1,44 @@
+﻿
+| piotex |
+
+Rzeczy do zdobienia:
+
+1) dokończyć uzupełnianie Fabryk i Enuma stronami z których pobieram info   | 1 |
+1,5) zrobić rooting do nowo dodanych										| 1 |
+2) napisać filtry do stron z danymi											| X |
+3) to o czym zapomniałem  ? => Folder / Helpers?							| X |
+4) napisać testy															| X |
+5) w rootowaniu sprawdzić czy jest to napewno właściwy url na jakim jest strona - nie wszyscy udostepniają a potem wywala na główną strone profilu					| X |
+
+-------------------------------------------------------------------------------------------------------------
+
+1) strona zameldowania do ogarnięcia piszą o 7 pokazują 5 => co z tym ?
+2) strona questions -> https://www.facebook.com/bartlomiej.zapart.toci/did_you_know?lst=100004370412103%3A100001482069573%3A1516409915   co z tym
+3) strona notes ->  https://www.facebook.com/bartlomiej.zapart.toci/notes?lst=100004370412103%3A100001482069573%3A1516409915  co z tym
+4) oś czasu bierzemy coś z tąd
+5) oś czau -> prezentacja ?
+6) problem przy tokenach !!!!  colection_token
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

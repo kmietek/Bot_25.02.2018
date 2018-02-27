@@ -1,0 +1,5 @@
+E:\Git\FacebookBot\Bot\FaceBookBot\Factories\bin\Debug\Factories.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\Factories\bin\Debug\Factories.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\Factories\obj\Debug\Factories.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\Factories\obj\Debug\Factories.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\Factories\obj\Debug\Factories.csprojResolveAssemblyReference.cache

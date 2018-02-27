@@ -1,0 +1,12 @@
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\DataBase.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\DataBase.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\Factories.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\MySql.Data.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\Npgsql.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\Factories.pdb
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\Npgsql.xml
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\obj\Debug\DataBase.dll
+E:\Git\FacebookBot\Bot\FaceBookBot\DataBase\obj\Debug\DataBase.pdb

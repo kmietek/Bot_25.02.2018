@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E39E729-6945-4E56-90A1-3949B567929B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Factories</RootNamespace>
+    <AssemblyName>Factories</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase\DBManager.cs" />
+    <Compile Include="Facebook\Classes\AbstractClasses\AncillaryAbstractClass.cs" />
+    <Compile Include="Facebook\Classes\AbstractClasses\MainAbstractClass.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillaryContactInfo.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillaryEducation.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillaryLiveEvents.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillaryLiving.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillaryRelationship.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\About\AncillarySpecificInformations.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\AncillaryList.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Importants\AncillaryFriends.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Importants\AncillaryGroups.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Importants\AncillaryLikes.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryBooks.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryCommingEvents.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryGames.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryMovies.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryMusic.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryOpinions.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryPastEvents.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillarySportAthletes.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillarySportTeams.cs" />
+    <Compile Include="Facebook\Classes\AncillaryClasses\Rest\AncillaryTvPrograms.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainContactInfo.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainEducation.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainLiveEvents.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainLiving.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainRelationship.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\MainSpecificInformations.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\About\WstepnaKoncepcjaFiltrow.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Importants\MainFriends.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Importants\MainGroups.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Importants\MainLikes.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainBooks.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainCommingEvents.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainGames.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainMovies.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainMusic.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainOpinions.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainPastEvents.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainSportAthletes.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainSportTeams.cs" />
+    <Compile Include="Facebook\Classes\MainClasses\Rest\MainTvPrograms.cs" />
+    <Compile Include="Facebook\Enums\EnumPages.cs" />
+    <Compile Include="Facebook\Factory\AncillaryFactory.cs" />
+    <Compile Include="Facebook\Factory\MainFactory.cs" />
+    <Compile Include="Facebook\Factory\PageFactory.cs" />
+    <Compile Include="Facebook\Interfaces\IAncillary.cs" />
+    <Compile Include="Facebook\Interfaces\IMain.cs" />
+    <Compile Include="Facebook\Main\FacebookManager.cs" />
+    <Compile Include="Helpers\AbstractHelpers.cs" />
+    <Compile Include="Helpers\EnumHelper.cs" />
+    <Compile Include="Helpers\StringHelpers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Root\RootFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="A\Notatki.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
